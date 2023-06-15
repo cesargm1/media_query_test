@@ -1,0 +1,38 @@
+@media only screen and (max-width: 800px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: blue;
+        flex-wrap: wrap;
+        
+      
+    }
+    
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #292626;
+    background: url(https://c4.wallpaperflare.com/wallpaper/365/244/884/uchiha-itachi-naruto-shippuuden-anbu-silhouette-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    gap: 2em;
+
+}
+
+
+.hiden{
+    background-color: #292626;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg);
+    border-radius: 10px;
+}
