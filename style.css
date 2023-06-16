@@ -1,15 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 800px){
     body{
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 100vh;
-        background-color: blue;
         flex-wrap: wrap;
-        
-      
+        min-height: 100vh;
+        background-color: rgb(73, 73, 135);
+        gap: 1em;
+        flex-direction: column;
     }
     
+}
+
+@media only screen and (min-width: 800px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(125, 125, 207);
+        flex-wrap: wrap;
+        gap: 1em;
+        flex-direction: column;
+    }
 }
 
 
@@ -21,18 +37,26 @@
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    display: flex;
-    gap: 2em;
 
 }
-
-
 .hiden{
-    background-color: #292626;
+    width: 200px;
+    height: 200px;
+    background: url(https://preview.redd.it/3k24udgo61781.png?width=640&crop=smart&auto=webp&s=4e9dc1a5681cbc7d95989c3e0820c419819aaeb9);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img{
     width: 200px;
     height: 200px;
     background-size: cover;
     background-position: center;
-    background: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg);
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
 }
